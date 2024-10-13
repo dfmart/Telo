@@ -1,0 +1,145 @@
+
+ p{
+    color: #ffffff;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+   
+  
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.containerr {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.containerr a {
+    text-align: center;
+    margin: 10px;
+    flex: 1 1 200px; /* Permite que los elementos crezcan y se reduzcan */
+}
+
+.containerr img {
+    width: 70px;
+    
+    border-radius: 10px;
+}
+
+ 
+
+h1 {
+    height: 300px ;
+    text-align: center; /* Centra el texto horizontalmente */
+    
+}
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+ul {
+    list-style-type: none; /* Elimina viñetas */
+    padding: auto;            /* Elimina padding */
+    margin: 0px;             /* Elimina margen */
+   
+}
+
+li {
+    
+    position: relative;    /* Necesario para posicionar el submenu */
+    display: inline-block; /* Para alinear los elementos horizontalmente */
+
+}
+a {
+    text-decoration: none;  /* Elimina subrayado */
+    padding: auto;     /* Espaciado alrededor del enlace */
+    display: block;          /* Hace que el área clicable sea más grande */
+   
+    color: white;            /* Color del texto */
+}
+
+
+     /* Color de fondo al pasar el mouse
+     
+     a:hover {}*/
+
+
+
+
+
+/* Estilo del submenu */
+.submenu {
+    display: none;          /* Oculta el submenu por defecto */
+    position: absolute;     /* Permite posicionar el submenu */
+    left: 0px; 
+    padding:auto;               /* Alinea el submenu a la izquierda */
+    top: 100%;              /* Coloca el submenu debajo del elemento padre */
+    /* Color de fondo del submenu  background-color: rgb(37, 0, 248);*/
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Sombra para el submenu */
+    z-index: 1;             /* Asegura que el submenu esté por encima de otros elementos */
+    
+}
+
+li:hover .submenu {
+    display: block;        /* Muestra el submenu al pasar el mouse */
+   
+}
+
+.submenu a {
+    color: rgb(255, 255, 255);          /* Color del texto en el submenu */
+    padding: auto;
+}
+
+body {
+    background-image: url('../img/equipos.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    height: 100vh;
+
+}
+/* Estilo para pantallas pequeñas */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerr {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerr a {
+        margin: 5px 0;
+    }
+}

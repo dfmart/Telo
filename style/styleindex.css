@@ -1,0 +1,77 @@
+
+/*.index  {
+    background-image: url('../img/fondos.jpg'); /* Ruta a tu imagen 
+    background-size: cover;  Cubre todo el fondo 
+    background-repeat: no-repeat; /* No repetir la imagen 
+    background-position: left; /* Centra la imagen }
+
+    .index {
+    display: block; /* Para que la imagen sea un bloque y ocupe el espacio necesario 
+    margin: cover auto; Centra la imagen 
+    max-width: 100%;  Asegura que no exceda el ancho de la pantalla 
+    height: auto; /* Mantiene la proporción de la imagen 
+}
+
+
+img {
+    display: block;
+    margin: 20px auto; /* Centrar la imagen 
+    max-width: 100%; /* Ajustar la imagen al contenedor 
+    height: auto; /* Mantener la proporción de la imagen 
+}
+    
+    */
+
+
+
+body {
+    background-image: url('../img/equipos.jpeg'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Cubre todo el fondo */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-position: left; /* Centra la imagen */
+    margin: 0; /* Elimina el margen por defecto */
+    font-family: Arial, sans-serif; /* Estilo de fuente */
+    color: #ffffff; /* Color del texto */
+}
+
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+div {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+   
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgb(54, 2, 243);
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+ul {
+    padding-left: 20px;
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    div {
+        padding: 10px;
+    }
+}

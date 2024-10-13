@@ -1,0 +1,93 @@
+
+<table>
+<tr>
+        <th>Id</th>
+        <th>Tipo</th>
+        <th>Placa</th>
+        <th>Serial</th>
+        <th>Proveedor</th>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Especificacion</th>
+        <th>Estado</th>
+        <th>Cliente</th>
+        <th>Descripcion</th>
+        <th>Tecnico</th>
+        <th>Fecha Ingreso</th>
+        <th>Fecha Salida</th>
+    </tr>
+
+            <tr>
+        <td>6</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>0000-00-00</td>
+        <td>2024-10-03</td>
+
+    
+    </tr>
+        <tr>
+        <td>8</td>
+        <td>RAM</td>
+        <td>bmn</td>
+        <td>  bcv</td>
+        <td>Duvan</td>
+        <td>cvbcv</td>
+        <td>bcv</td>
+        <td>bvcv</td>
+        <td>VENTA</td>
+        <td>felipe</td>
+        <td>vb</td>
+        <td></td>
+        <td>2024-10-05</td>
+        <td>2024-10-05</td>
+
+    
+    </tr>
+        <tr>
+        <td>4</td>
+        <td></td>
+        <td>lp1102</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>0000-00-00</td>
+        <td>0000-00-00</td>
+
+    
+    </tr>
+        <tr>
+        <td>5</td>
+        <td></td>
+        <td>LP201</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>DIPONIBLE</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>0000-00-00</td>
+        <td>0000-00-00</td>
+
+    
+    </tr>
+    </table>
+
